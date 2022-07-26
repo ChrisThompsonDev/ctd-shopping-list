@@ -82,6 +82,6 @@ app.delete('/deleteItem', (request, response) => {
 
 })
 
-app.listen(process.env.PORT || PORT, ()=>{
+app.listen(process.env.PORT || 8000, ()=>{
     console.log(`Server running on port ${PORT}`)
 })
