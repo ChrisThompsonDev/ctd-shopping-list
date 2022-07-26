@@ -1,32 +1,33 @@
+![Screenshot](/image.PNG)
+
 # My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+This a simple app that I made so I can update my shopping list in real time, from anywhere!.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://ctd-shopping-list.herokuapp.com/
 
-![alt tag](http://placecorgi.com/1200/650)
+![Heoku Deployment](https://ctd-shopping-list.herokuapp.com/)
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB, Heroku
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+I started by building this in node/express and wanted it to connect to a MongoDB database. Then I added the .ejs file and javascript to make it work in browser. Fromt here I deployed it to Heroku so it would be running live!
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+I may update this app so that it separates the sections instead of simply organizing them alphabetically. Visual updates to come as well. 
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I had trouble with my initial deployment. It was returning a server error and I had forgotten 2 things! My package.json file's "main" was not the same as my root server file name. Also, when building the app originally, I only had my PC's IP address whitelisted. So I enabled all IPs to make modifications and it worked perfectly. 
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/ChrisThompsonDev/palettable
+**ACNH Tracking Tools:** https://github.com/ChrisThompsonDev/acnhTrackingTools
 
-**Twitter Battle:** https://github.com/ChrisThompsonDev/twitter-battle
+**Restaurant Savore:** https://github.com/ChrisThompsonDev/restaurantSavore
 
-**Patch Panel:** https://github.com/ChrisThompsonDev/patch-panel
+**KK SLider Music Player:** https://github.com/ChrisThompsonDev/Animal-Crossing-KK-Slider-Music-Player
 
 
