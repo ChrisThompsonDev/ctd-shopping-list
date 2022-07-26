@@ -1,0 +1,24 @@
+html {
+    font-size: 62.5%;
+    font-size: 1.20rem;
+}
+
+h1{
+    color: red;
+}
+
+.bold {
+    font-weight: 700;
+}
+body {
+    max-width: 900px;
+    margin: auto;
+    background-color: lightgrey;
+}
+.fa {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+span {
+    margin-bottom: 10px;
+}
